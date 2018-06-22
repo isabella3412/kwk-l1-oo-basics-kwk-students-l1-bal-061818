@@ -40,7 +40,22 @@ class Shoe
   def condition
     @condition
   end
-    
+
+  def cobble=(cobble)
+    @cobble = cobble
+  end
+
+  def make_condition_new
+    puts "Your show is good as new!"
+  end
+end
+
+
+Adidas =Shoe.new("adidas")
+Adidas.make_condition_new
+
+
+
 
 
 
