@@ -13,4 +13,20 @@ class Book
     @author = author
   end
 
+  def author
+    @author
+  end
+
+  def page_number=(pages)
+    @page_number = pages
+  end
+
+  def page_number
+    @page_number
+  end
 end
+
+
+
+
+
