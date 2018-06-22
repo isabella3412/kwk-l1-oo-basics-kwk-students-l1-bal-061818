@@ -24,9 +24,20 @@ class Book
   def page_number
     @page_number
   end
+
+  def genre=(genre)
+    @genre = genre
+  end
+
+  def genre
+    @genre
+  end
+
+  def turn_page
+    puts "Flipping the page...wow, you read fast!"
+  end
 end
 
 
-
-
-
+Harry_Potter = Book.new("Harry Potter and the Sorcerer's Stone")
+Harry_Potter.turn_page
