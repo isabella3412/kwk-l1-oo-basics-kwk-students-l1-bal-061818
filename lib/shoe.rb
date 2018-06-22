@@ -46,19 +46,10 @@ class Shoe
   end
 
   def make_condition_new
-    puts "Your show is good as new!"
+    puts "Your shoe is good as new!"
   end
 end
 
 
 Adidas =Shoe.new("adidas")
 Adidas.make_condition_new
-
-
-
-
-
-
-
-
-  
